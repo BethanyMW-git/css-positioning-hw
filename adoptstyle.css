@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 50px;
+}
+
+.logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 15%;
+}
+
+button {
+    position: fixed;
+    top: 100px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    background: blue;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    position: sticky;
+    margin-bottom: 50px;
+}
+/* Style for links inside nav bar */
+.topnav a {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Times New Roman'
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lightslategrey;
+    color: white;
+}
+
+/* Color for active/current link */
+.topnav a.active {
+    background-color: yellow;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeLZm3ELIt7XZzto9jrC5AZUHZKBCt3FPAcw&usqp=CAU);
+}
+
+table {
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 135px;
+    border: 1px solid black;
+}
+
+th {
+    height: 70px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}

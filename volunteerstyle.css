@@ -1,0 +1,51 @@
+.logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 15%;
+}
+
+h1 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: gold;
+    font-family: Comic Sans MS;
+    font-size: 50px;
+}
+
+iframe {
+    border-width: 15px;
+    border-color: gold;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.topnav {
+    text-align: center;
+    margin: 30px;
+}
+
+button {
+    text-align: center;
+    position: fixed;
+    color: white;
+    width: auto;
+    height: 50px;
+    font-size: 50;
+    top: 20px;
+    background-color: red;
+}
+
+main {
+    font-family: Comic San MS;
+}

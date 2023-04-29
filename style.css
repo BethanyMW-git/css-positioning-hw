@@ -1,0 +1,66 @@
+/* Add title*/
+h1 {
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+
+/* Add a white background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    position: sticky;
+    margin-bottom: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lightslategray;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: yellow;
+}
+
+#pixelatedPuppy {
+    position: relative;
+    left: 500px;
+    width: 30%;
+    z-index: 2;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeLZm3ELIt7XZzto9jrC5AZUHZKBCt3FPAcw&usqp=CAU);
+}
+
+.tenor-gif-embed {
+    width: 20%;
+    position: relative;
+    top: 130px;
+    left: 345px;
+    z-index: 1;
+}
+
+.map {
+    position: relative;
+    float: left;
+    bottom: 10px;
+    left: 10px;
+}
+.future {
+    position: relative;
+    float: right;
+    bottom: 10px;
+    right: 10px;
+}
