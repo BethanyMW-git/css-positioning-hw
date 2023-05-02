@@ -4,23 +4,24 @@ h1 {
     text-align: center;
 }
 
-/* Add a white background color to the top navigation */
 .topnav {
     background-color: white;
     overflow: hidden;
     position: sticky;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
     color: red;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Times New Roman';
+    box-sizing: border-box;
+    display: inline-block;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -33,15 +34,21 @@ h1 {
     background-color: yellow;
 }
 
-#pixelatedPuppy {
+/*.pixelatedPuppy {
     position: relative;
     left: 500px;
     width: 30%;
     z-index: 2;
-}
+    box-sizing: border-box;
+}*/
 
 body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeLZm3ELIt7XZzto9jrC5AZUHZKBCt3FPAcw&usqp=CAU);
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
 }
 
 .tenor-gif-embed {
@@ -63,4 +70,65 @@ body {
     float: right;
     bottom: 10px;
     right: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .pixelatedPuppy {
+        width: 100%;
+        height: auto;
+        /*margin: 0 auto;*/
+        align-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .pixelatedPuppy {
+        width: 20%;
+        /*margin: 0 auto;*/
+        inline-size: 87px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /*display: flex;
+        align-items: center;
+        justify-content: center;*/
+    }
+
+    body {
+        background-size: 20%;
+    }
+
+    .tenor-gif-embed {
+        width: 20%;
+        inline-size: 87px;
+    }
+
+    h1 {
+        font-size: 8px;
+        text-align: center;
+        display: flex;
+        text-overflow: hidden;
+        inline-size: 87px;
+        overflow-wrap: break-word;
+    }
+
+    .topnav {
+        text-overflow: hidden;
+        font-size: 5px;
+        inline-size: 87px;
+    }
+
+    .map {
+        font-size: 7px;
+        inline-size: 87px;
+    }
+
+    .future {
+        font-size: 7px;
+        inline-size: 87px;
+    }
 }
